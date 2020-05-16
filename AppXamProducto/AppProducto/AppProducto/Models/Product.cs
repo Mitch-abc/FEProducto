@@ -1,10 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace AppProducto.Models
+﻿namespace AppProducto.Models
 {
+    using Newtonsoft.Json;
     public class Product
     {
         [JsonProperty(PropertyName = "productid")]
